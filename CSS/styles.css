@@ -1,0 +1,158 @@
+body    
+{
+        direction: calc();
+        text-align: right;
+        margin: auto;
+        height: 175vh; width: 56vw; 
+        display: flex; flex-direction: column;
+        font-family: Tahoma;
+}
+nav
+{
+     display: flex;
+     justify-content:space-around;
+     margin-top: 0.2em;
+     height: 5%; 
+}
+nav div p
+{
+    margin: 0;
+    margin-top: 0.2em;
+}
+nav div p input
+{
+    width: 10em;
+    border: 0;
+    font-size: 0.7em;
+}
+nav div p img
+{
+    height: 2em;width: 2ems;
+}
+nav section
+{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center; 
+}
+nav section a
+{
+    text-decoration: none;
+    color: black;
+    margin-right: 0.3em;
+}
+nav section img
+{
+    height: 3em;width: 3ems;
+}
+figure
+{
+    margin:0;
+    height:25%; width: 100%;
+    background-image: url("../Images/airplane.jpg");
+    background-repeat: no-repeat;  
+    background-size: 100% 100%;    
+}
+h3
+{
+    font-weight: lighter;
+    font-size: 1.3em;
+    margin-right: 2em;
+}
+main
+{
+    display: flex;
+    justify-content:space-around;
+    font-size: 0.9em;
+}
+main div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main div label
+{
+    text-align: center;
+}
+main div label span
+{
+    color:rgb(0, 116, 255)
+}
+main div label span img
+{
+    height: 2em;width: 2ems;
+}
+button
+{
+    margin: 1em;
+    width: 8em; height: 2.5em;
+    background-color: black;
+    color:white;
+    float:left; margin-left: 2em;
+    font-size: 1em; font-weight: bold;
+}
+article
+{   
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+article div
+{   
+    height: 70%; width: 100%;
+    background-image: url("../Images/parallax1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+article h3
+{
+    margin-top: 0; margin-bottom: 0;
+}
+article section 
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.3em;
+}
+article section p
+{
+    margin-top: 0; margin-bottom: 0;   
+}
+aside
+{   
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+aside div
+{
+    height: 100%; width: 100%;
+    background-image: url("../Images/parallax2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+aside h3
+{
+    margin-top: 0.3em; margin-bottom: 0;
+}
+aside summary
+{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 1em; padding-right: 1em;
+    margin-bottom: 0;
+}
+footer
+{
+    height: 5%; width: 100%;
+    background-color: rgb(137, 225, 244);
+}
+aside summary h5
+{
+    margin-left: 1em; margin-right: 0.3em;
+}
+footer p
+{text-align: center;}
